@@ -1,0 +1,355 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt {
+	margin: 0;
+	padding: 0;
+	font-family: "Heiti SC", "华文细黑", "华文宋体", "Helvetica", "Arial", "sans-serif";
+	color: #000;
+	display: block;
+	background: #fff;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: inline-block;
+}
+
+.clear {
+	display: block;
+	*zoom: 1;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+
+/*手机端布局*/
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	.row {
+		width: 360px;
+		height: 48px;
+		margin: 0 auto;
+	}
+	.column-left {
+		width: 346px;
+		height: 34px;
+		margin: 7px;
+	}
+	.column-left button {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background: url(../images/menu.png);
+		border: none;
+		cursor: pointer;
+		font-size: 18px;
+		width: 25px;
+		height: 20px;
+		margin-top: 8px;
+		margin-left: 3px;
+		margin-right: 3px;
+		float: left;
+	}
+	.column-left div {
+		width: 139px;
+		height: 35px;
+		float: right;
+		background: url(../images/logo.png) center center no-repeat;
+	}
+	.column-right {
+		width: 346px;
+		height: 32px;
+		margin: 7px;
+	}
+	.column-right .top-bar-left {
+		display: none;
+	}
+	.column-right .top-bar-right {
+		width: 346px;
+		height: 32px;
+	}
+	.column-right .top-bar-right ul {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.column-right .top-bar-right ul li {
+		float: left;
+		text-align: center;
+		width: 64px;
+		height: 32px;
+		line-height: 32px;
+		font-size: 14px;
+	}
+	.column-right .top-bar-right ul li:first-child {
+		width: 39px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.column-right .top-bar-right ul li a {
+		color: black;
+	}
+	.banner {
+		width: 360px;
+		height: 129px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+	.banner ol {
+		bottom: -7px;
+	}
+	.banner ol li {
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.45);
+	}
+	.banner ol li.active{
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		background-color: rgba(0,0,0,0.45);
+		border: none;
+	}
+}
+
+
+/*平板端布局*/
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.row {
+		width: 768px;
+		height: 61px;
+		margin: 0 auto;
+	}
+	.column-left {
+		width: 621px;
+		height: 61px;
+		margin: 7px;
+		display: none;
+	}
+	.column-left button {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background: url(../images/menu.png);
+		border: none;
+		cursor: pointer;
+		font-size: 18px;
+		width: 25px;
+		height: 20px;
+		margin-top: 8px;
+		margin-left: 3px;
+		margin-right: 3px;
+		float: left;
+	}
+	.column-left div {
+		width: 139px;
+		height: 35px;
+		float: right;
+		background: url(../images/logo.png) center center no-repeat;
+	}
+	.column-right {
+		width: 622px;
+		height: 42px;
+		margin-left: 73px !important;
+		margin: 9px;
+	}
+	.column-right .top-bar-left {
+		background: url(../images/logo.png) left center no-repeat;
+		float: left;
+		width: 240px;
+		height: 43px;
+	}
+	.column-right .top-bar-right {
+		float: left;
+		width: 381px;
+		height: 41px;
+	}
+	.column-right .top-bar-right ul {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.column-right .top-bar-right ul li {
+		float: left;
+		text-align: center;
+		width: 82px;
+		height: 41px;
+		line-height: 41px;
+		font-size: 16px;
+	}
+	.column-right .top-bar-right ul li:first-child {
+		width: 50px;
+		height: 41px;
+		line-height: 41px;
+	}
+	.column-right .top-bar-right ul li a {
+		color: black;
+	}
+	.banner {
+		width: 768px;
+		height: 276px;
+		overflow: hidden;
+		margin: 0 auto;
+		position: relative;
+	}
+	.banner ol {
+		bottom: -1px;
+	}
+	.banner ol li {
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.45);
+	}
+	.banner ol li.active{
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		background-color: rgba(0,0,0,0.45);
+		border: none;
+	}
+}
+
+
+/*PC端布局*/
+
+@media only screen and (min-width: 1200px) {
+	.row {
+		width: 1280px;
+		height: 68px;
+		margin: 0 auto;
+	}
+	.column-left {
+		width: 621px;
+		height: 61px;
+		margin: 7px;
+		display: none;
+	}
+	.column-left button {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background: url(../images/menu.png);
+		border: none;
+		cursor: pointer;
+		font-size: 18px;
+		width: 25px;
+		height: 20px;
+		margin-top: 8px;
+		margin-left: 3px;
+		margin-right: 3px;
+		float: left;
+	}
+	.column-left div {
+		width: 139px;
+		height: 35px;
+		float: right;
+		background: url(../images/logo.png) center center no-repeat;
+	}
+	.column-right {
+		width: 1046px;
+		height: 48px;
+		margin-left: 116px !important;
+		margin: 10px;
+	}
+	.column-right .top-bar-left {
+		background: url(../images/logo.png) left center no-repeat;
+		float: left;
+		width: 523px;
+		height: 48px;
+	}
+	.column-right .top-bar-right {
+		float: left;
+		width: 523px;
+		height: 46px;
+	}
+	.column-right .top-bar-right ul {
+		width: 100%;
+	}
+	.column-right .top-bar-right ul li {
+		float: left;
+		text-align: center;
+		width: 92px;
+		height: 46px;
+		line-height: 46px;
+		font-size: 18px;
+	}
+	.column-right .top-bar-right ul li:first-child {
+		width: 56px;
+		height: 46px;
+		line-height: 46px;
+	}
+	.column-right .top-bar-right ul li a {
+		color: black;
+	}
+	.banner {
+		width: 1280px;
+		height: 460px;
+		overflow: hidden;
+		margin: 0 auto;
+		position: relative;
+	}
+	.banner ol {
+		bottom: -1px;
+	}
+	.banner ol li {
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.45);
+	}
+	.banner ol li.active{
+		width: 10px;
+		height: 10px;
+		margin: 0 0 0 4px;
+		background-color: rgba(0,0,0,0.45);
+		border: none;
+	}
+}
