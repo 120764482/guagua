@@ -489,4 +489,130 @@ img {
 		background-color: rgba(0,0,0,0.45);
 		border: none;
 	}
+	.tab{
+		width: 1280px;
+		height: 2114px;
+		margin: 0 auto;
+	}
+	.tabs{
+		width: 1280px;
+		height: 113px;
+		border-bottom: 1px solid #e6e6e6 !important;
+	}
+	.tabs li{
+		width: 320px;
+		height: 113px;
+		padding-left: 35px;
+		padding-right: 25px;
+		float: left;
+		background: no-repeat;
+	}
+	.tabs li h3{
+		margin-top: 30px;
+	}
+	.tabs li p{
+		margin-top: 5px;
+		color:#666666;
+		font-size: 16px;
+	}
+	.tabs li a{
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0;
+		border: 0 !important;
+	
+		/*width: 117px;
+		height: 100px;*/
+		/*margin-left: 25px;*/
+		margin-right:15px ;
+	}
+	.tabs li a img{
+		width: 117px;
+		height: 60px;
+		display: none;
+	}
+	.tabs li.active{
+		border-bottom: 2px solid #52AC8D;
+	}
+	.tabs li.active h3{
+		color: #52AC8D;
+		
+	}
+	.tabs li:hover h3{
+		color: #52AC8D;
+		
+	}
+	.tabs li:first-child a{
+		width: 69px;
+		height: 58px;
+		margin-left:25px ;
+		margin-top: 25px;
+		background: url(../images/pc-1.png) no-repeat;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(2) a{
+		width: 69px;
+		height: 58px;
+		margin-left:25px ;
+		margin-top: 25px;
+		background: url(../images/pc-2.png) no-repeat;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(3) a{
+		width: 52px;
+		height: 61px;
+		margin-left:25px ;
+		margin-top: 25px;
+		background: url(../images/pc-3.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(4) a{
+		width: 54px;
+		height: 63px;
+		margin-left:25px ;
+		margin-top: 25px;
+		background: url(../images/pc-4.png) no-repeat;
+		background-size: cover !important;
+	}
+	.tabs li:first-child.active a{
+		background: url(../images/pc.1.png) no-repeat  ;
+		background-size: cover !important;
+	}
+	.tabs li:first-child:hover a{
+		background: url(../images/pc.1.png) no-repeat  ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(2).active a{
+		background: url(../images/pc.2.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(2):hover a{
+		background: url(../images/pc.2.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(3).active a{
+		background: url(../images/pc.3.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(3).active a{
+		background: url(../images/pc.3.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(3):hover a{
+		background: url(../images/pc.3.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(4).active a{
+		background: url(../images/tap.4.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(4).active a{
+		background: url(../images/pc.4.png) no-repeat ;
+		background-size: cover !important;
+	}
+	.tabs li:nth-child(4):hover a{
+		background: url(../images/pc.4.png) no-repeat ;
+		background-size: cover !important;
+	}
 }
