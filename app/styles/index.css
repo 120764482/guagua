@@ -615,4 +615,98 @@ img {
 		background: url(../images/pc.4.png) no-repeat ;
 		background-size: cover !important;
 	}
+	.tab-content{
+		width: 1280px;
+		height: 2000px;
+	}
+	.align-middle{
+		width: 1280px;
+		height: 500px;
+	}
+	.align-middle:first-child{
+		width: 1280px;
+		height: 500px;
+		background: #F4FAFA;
+	}
+	.align-middle:nth-child(3){
+		background: #F4FAFA;
+	}
+	.align-middle .tu{
+		width: 386px;
+		height: 450px;
+		margin-left: 124px;
+		margin-top: 25px;
+		float: left;
+		background: none !important;
+	}
+	.align-middle .zi{
+		width: 602px;
+		height: 234px;
+		margin-left: 20px;
+		margin-top: 144px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi h3{
+		width: 602px;
+		height: 42px;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 26px;
+		background: none;
+	}
+	.align-middle .zi h4{
+		width: 602px;
+		height: 36px;
+		margin-top: 16px;
+		color: #52AC8D;
+		font-size: 20px;
+	}
+	.align-middle .zi p{
+		width: 602px;
+		height: 84px;
+		background: none;
+		color: #666666;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.align-middle .zi2{
+		width: 602px;
+		height: 262px;
+		margin-left: 125px;
+		margin-top: 125px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi2 h3{
+		width: 602px;
+		height: 42px;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 26px;
+		background: none;
+	}
+	.align-middle .zi2 h4{
+		width: 602px;
+		height: 36px;
+		margin-top: 16px;
+		color: #52AC8D;
+		font-size: 20px;
+	}
+	.align-middle .zi2 p{
+		width: 602px;
+		height: 84px;
+		background: none;
+		color: #666666;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.align-middle .tu2{
+		width: 386px;
+		height: 450px;
+		margin-left: 19px;
+		margin-top: 25px;
+		float: left;
+	}
+	
 }
