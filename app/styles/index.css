@@ -157,7 +157,7 @@ img {
 	}
 	.tab{
 		width: 360px;
-		height: 1001px;
+		
 		margin: 0 auto;
 	}
 	.tabs{
@@ -315,7 +315,7 @@ img {
 	}
 	.tab{
 		width: 768px;
-		height: 1375px;
+		
 		margin: 0 auto;
 	}
 	.tabs{
@@ -491,7 +491,7 @@ img {
 	}
 	.tab{
 		width: 1280px;
-		height: 2114px;
+		
 		margin: 0 auto;
 	}
 	.tabs{
@@ -617,7 +617,7 @@ img {
 	}
 	.tab-content{
 		width: 1280px;
-		height: 2000px;
+		/*height: auto;*/
 	}
 	.align-middle{
 		width: 1280px;
@@ -708,5 +708,56 @@ img {
 		margin-top: 25px;
 		float: left;
 	}
-	
+	.meiche{
+		width: 1127px;
+		height: 1071px;
+		margin: 0 auto;
+		/*overflow: hidden;*/
+	}
+	.meiche .column{
+		width: 513px;
+		height: 473px;
+		margin: 25px;
+		float: left;
+	}
+	.meiche .column h4{
+		width: 513px;
+		height: 70px;
+		line-height: 70px;
+		text-align: center;
+		color: #fff;
+		background: #52AC8D;
+		margin: 0;
+		font-weight: bold;
+		font-size: 28px;
+	}
+	.meiche .column img{
+		width: 513px;
+		height: 292px;
+		background-size: cover;
+	}
+	.meiche .column p{
+		width: 513px;
+		height: 110px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 16px;
+		padding-top: 30px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.meiche .column:nth-child(3) p{
+		width: 513px;
+		height: 135px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 16px;
+		padding-top: 30px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 30px;
+		font-size: 16px;
+	}
 }
