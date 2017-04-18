@@ -25,6 +25,7 @@ dt {
 	background: #fff;
 	word-break: break-all;
 	word-wrap: break-word;
+	
 }
 
 ul,
@@ -391,6 +392,263 @@ img {
 		background: url(../images/tap.4.png) no-repeat ;
 		background-size: cover !important;
 	}
+	.tab-content{
+		width: 768px;
+		/*height: auto;*/
+	}
+	.align-middle{
+		width: 768px;
+		height: 304px;
+	}
+	.align-middle:first-child{
+		width: 768px;
+		height: 304px;
+		background: #F4FAFA;
+	}
+	.align-middle:nth-child(3){
+		background: #F4FAFA;
+	}
+	.align-middle .tu{
+		width: 222px;
+		height: 259px;
+		margin-left: 81px;
+		margin-top: 22px;
+		float: left;
+		background: none !important;
+	}
+	.align-middle .tu img{
+		width: 222px;
+		height: 259px;
+		background-size: cover;
+	}
+	.align-middle .zi{
+		width: 350px;
+		height: 234px;
+		margin-left: 20px;
+		margin-top: 32px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi h3{
+		width: 350px;
+		height: 37px;
+		font-size: 28px;
+		margin-top: 14px;
+		margin-bottom: 23px;
+		background: none;
+	}
+	.align-middle .zi h4{
+		width: 350px;
+		height: 24px;
+		margin-top: 4px;
+		color: #52AC8D;
+		font-size: 18px;
+	}
+	.align-middle .zi p{
+		width: 350px;
+		height: 84px;
+		background: none;
+		color: #666666;
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.align-middle .zi2{
+		width: 350px;
+		height: 283px;
+		margin-left: 81px;
+		margin-top: 23px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi2 h3{
+		width: 350px;
+		height: 37px;
+		font-size: 28px;
+		margin-top: 14px;
+		margin-bottom: 23px;
+		background: none;
+	}
+	.align-middle .zi2 h4{
+		width: 350px;
+		height: 24px;
+		margin-top: 4px;
+		color: #52AC8D;
+		font-size: 18px;
+	}
+	.align-middle .zi2 p{
+		width: 350px;
+		height: 84px;
+		background: none;
+		color: #666666;
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.align-middle .tu2{
+		width: 222px;
+		height: 259px;
+		margin-left: 17px;
+		margin-top: 22px;
+		float: left;
+		background: none !important;
+	}
+	.align-middle .tu2 img{
+		width: 222px;
+		height: 259px;
+		background-size: cover;
+		float: left;
+	}
+	.meiche{
+		width: 1127px;
+		height: 1071px;
+		margin: 0 auto;
+		/*overflow: hidden;*/
+	}
+	.meiche .column{
+		width: 513px;
+		height: 473px;
+		margin: 25px;
+		float: left;
+	}
+	.meiche .column h4{
+		width: 513px;
+		height: 70px;
+		line-height: 70px;
+		text-align: center;
+		color: #fff;
+		background: #52AC8D;
+		margin: 0;
+		font-weight: bold;
+		font-size: 28px;
+	}
+	.meiche .column img{
+		width: 513px;
+		height: 292px;
+		background-size: cover;
+	}
+	.meiche .column p{
+		width: 513px;
+		height: 110px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 16px;
+		padding-top: 30px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.meiche .column:nth-child(3) p{
+		width: 513px;
+		height: 135px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 16px;
+		padding-top: 30px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.chexian{
+		width: 1207px;
+		height: 628px;
+		margin: 0 auto;
+	}
+	.chexian .fenl{
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #52AC8D;
+	}
+	.chexian .fenl .xiaotu{
+		width: 159px;
+		height: 269px;
+		float: left;
+	}
+	.chexian .fenl .xiaotu img{
+		width: 159px;
+		height: 269px;
+		background-size: cover;
+	}
+	.chexian .fenl .peiwen{
+		width: 414px;
+		height: 269px;
+		float: right;
+		background: none;
+	}
+	.chexian .fenl .peiwen h4{
+		margin-top: 50px;
+		color: #fff;
+		font-size: 36px;
+	}
+	.chexian .fenl .peiwen p{
+		width: 90%;
+		background: none;
+		color: #fff;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(2){
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #F5F5F5;
+	}
+	.chexian .fenl:nth-child(2) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(2) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3){
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #F5F5F5;
+	}
+	.serve{
+		width: 1027px;
+		height: 633px;
+		margin: 0 auto;
+		margin-top:64px;
+	}
+	.serve h2{
+		font-size: 30px;
+		text-align: center;
+		color: #52AC8D;
+		margin-bottom: 10px;
+	}
+	.serve p{
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.serve img{
+		margin-top: 20px !important;
+		margin-left: 60px;
+		width: 918px;
+		height: 418px;
+		
+	}
+
 }
 
 
@@ -759,5 +1017,104 @@ img {
 		text-align: left;
 		line-height: 30px;
 		font-size: 16px;
+	}
+	.chexian{
+		width: 1207px;
+		height: 628px;
+		margin: 0 auto;
+	}
+	.chexian .fenl{
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #52AC8D;
+	}
+	.chexian .fenl .xiaotu{
+		width: 159px;
+		height: 269px;
+		float: left;
+	}
+	.chexian .fenl .xiaotu img{
+		width: 159px;
+		height: 269px;
+		background-size: cover;
+	}
+	.chexian .fenl .peiwen{
+		width: 414px;
+		height: 269px;
+		float: right;
+		background: none;
+	}
+	.chexian .fenl .peiwen h4{
+		margin-top: 50px;
+		color: #fff;
+		font-size: 36px;
+	}
+	.chexian .fenl .peiwen p{
+		width: 90%;
+		background: none;
+		color: #fff;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(2){
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #F5F5F5;
+	}
+	.chexian .fenl:nth-child(2) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(2) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3){
+		width: 573px;
+		height: 269px;
+		margin: 15px;
+		float: left;
+		background-color: #F5F5F5;
+	}
+	.serve{
+		width: 1027px;
+		height: 633px;
+		margin: 0 auto;
+		margin-top:64px;
+	}
+	.serve h2{
+		font-size: 30px;
+		text-align: center;
+		color: #52AC8D;
+		margin-bottom: 10px;
+	}
+	.serve p{
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.serve img{
+		margin-top: 20px !important;
+		margin-left: 60px;
+		width: 918px;
+		height: 418px;
+		
 	}
 }
