@@ -214,6 +214,276 @@ img {
 	.tabs li:nth-child(4).active a{
 		background: url(../images/tap.4.png);
 	}
+	.align-middle{
+		width: 360px;
+		height: 234px;
+		overflow: hidden;
+	}
+	.align-middle:first-child{
+		width: 768px;
+		height: 234px;
+		background: #F4FAFA;
+	}
+	.align-middle:nth-child(2){
+		width: 768px;
+		height: 290px;
+		
+	}
+	.align-middle:nth-child(3){
+		background: #F4FAFA;
+	}
+	.align-middle .tu{
+		width: 102px;
+		height: 119px;
+		margin-left: 9px;
+		margin-top: 60px;
+		float: left;
+		background: none !important;
+	}
+	.align-middle .tu img{
+		width: 102px;
+		height: 119px;
+		background-size: cover;
+	}
+	.align-middle .zi{
+		width: 222px;
+		height: 198px;
+		margin-left: 8px;
+		margin-top: 18px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi h3{
+		width: 222px;
+		height: 28px;
+		font-size: 20px;
+		margin-top: 11px;
+		margin-bottom: 11px;
+		background: none;
+	}
+	.align-middle .zi h4{
+		width: 222px;
+		height: 19px;
+		margin-top: 3px;
+		color: #52AC8D;
+		font-size: 13px;
+	}
+	.align-middle .zi p{
+		width: 222px;
+		height: 95px;
+		background: none;
+		color: #666666;
+		font-size: 12px;
+		line-height: 20px;
+		display: block;
+	}
+	.align-middle .zi2{
+		width: 222px;
+		height: 255px;
+		margin-left: 8px;
+		margin-top: 17px;
+		float: left;
+		background: none;
+	}
+	.align-middle .zi2 h3{
+		width: 222px;
+		height: 28px;
+		font-size: 20px;
+		margin-top: 11px;
+		margin-bottom: 11px;
+		background: none;
+	}
+	.align-middle .zi2 h4{
+		width: 222px;
+		height: 19px;
+		margin-top: 3px;
+		color: #52AC8D;
+		font-size: 13px;
+	}
+	.align-middle .zi2 p{
+		width: 222px;
+		height: 95px;
+		background: none;
+		color: #666666;
+		font-size: 12px;
+		line-height: 20px;
+		display: block;
+	}
+	.align-middle .tu2{
+		width: 102px;
+		height: 119px;
+		margin-left: 9px;
+		margin-top: 60px;
+		float: left;
+		background: none !important;
+	}
+	.align-middle .tu2 img{
+		width: 102px;
+		height: 119px;
+		background-size: cover;
+	}
+	.meiche{
+		width: 631px;
+		height: 775px;
+		margin: 0 auto;
+		margin-top: 32px;
+		/*overflow: hidden;*/
+	}
+	.meiche .column{
+		width: 288px;
+		height: 349px;
+		margin: 13px;
+		float: left;
+	}
+	.meiche .column h4{
+		width: 288px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		color: #fff;
+		background: #52AC8D;
+		margin: 0;
+		font-weight: bold;
+		font-size: 28px;
+	}
+	.meiche .column img{
+		width: 288px;
+		height: 164px;
+		background-size: cover;
+	}
+	.meiche .column p{
+		width: 288px;
+		height: 110px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 14px;
+		padding-top: 20px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	.meiche .column:nth-child(3){
+		height: 372px;
+	}
+	.meiche .column:nth-child(3) p{
+		width: 288px;
+		height: 135px;
+		background-size: cover;
+		color: #fff;
+		padding-left: 14px;
+		padding-top: 20px;
+		background: #52AC8D;
+		text-align: left;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	.chexian{
+		width: 702px;
+		height: 1077px;
+		margin: 0 auto;
+		margin-top: 13px;
+	}
+	.chexian .fenl{
+		width: 675px;
+		height: 242px;
+		margin: 13px;
+		background-color: #52AC8D;
+		overflow: hidden;
+	}
+	.chexian .fenl .xiaotu{
+		width: 169px;
+		height: 242px;
+		float: left;
+	}
+	.chexian .fenl .xiaotu img{
+		width: 169px;
+		height: 242px;
+		background-size: cover;
+	}
+	.chexian .fenl .peiwen{
+		width: 473px;
+		height: 242px;
+		float: right;
+		background: none;
+	}
+	.chexian .fenl .peiwen h4{
+		margin-top: 50px;
+		color: #fff;
+		font-size: 28px;
+	}
+	.chexian .fenl .peiwen p{
+		width: 95%;
+		background: none;
+		color: #fff;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.chexian .fenl:nth-child(2){
+		width: 675px;
+		height: 242px;
+		margin: 13px;
+		
+		background-color: #F5F5F5;
+	}
+	.chexian .fenl:nth-child(2) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(2) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen h4{
+		margin-top: 50px;
+		color: #52AC8D;
+		font-size: 36px;
+	}
+	.chexian .fenl:nth-child(3) .peiwen p{
+		width: 90%;
+		background: none;
+		color: #666666;
+		font-size: 15px;
+	}
+	.chexian .fenl:nth-child(3){
+		width: 675px;
+		height: 242px;
+		margin: 13px;
+		
+		background-color: #F5F5F5;
+	}
+	.serve{
+		width: 732px;
+		height: 650px;
+		margin: 0 auto;
+		margin-top:58px;
+	}
+	.serve h2{
+		font-size: 30px;
+		text-align: center;
+		color: #52AC8D;
+		margin-bottom: 10px;
+	}
+	.serve p{
+		text-align: left;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.serve div{
+		width: 732px;
+		height: 417px;
+		overflow-x: scroll;
+		margin-top: 20px !important;
+	}
+	.serve div img{
+		
+		width: 918px;
+		height: 417px;
+		
+	}
 }
 
 
@@ -399,6 +669,7 @@ img {
 	.align-middle{
 		width: 768px;
 		height: 304px;
+		overflow: hidden;
 	}
 	.align-middle:first-child{
 		width: 768px;
@@ -498,21 +769,22 @@ img {
 		float: left;
 	}
 	.meiche{
-		width: 1127px;
-		height: 1071px;
+		width: 631px;
+		height: 775px;
 		margin: 0 auto;
+		margin-top: 32px;
 		/*overflow: hidden;*/
 	}
 	.meiche .column{
-		width: 513px;
-		height: 473px;
-		margin: 25px;
+		width: 288px;
+		height: 349px;
+		margin: 13px;
 		float: left;
 	}
 	.meiche .column h4{
-		width: 513px;
-		height: 70px;
-		line-height: 70px;
+		width: 288px;
+		height: 60px;
+		line-height: 60px;
 		text-align: center;
 		color: #fff;
 		background: #52AC8D;
@@ -521,78 +793,83 @@ img {
 		font-size: 28px;
 	}
 	.meiche .column img{
-		width: 513px;
-		height: 292px;
+		width: 288px;
+		height: 164px;
 		background-size: cover;
 	}
 	.meiche .column p{
-		width: 513px;
+		width: 288px;
 		height: 110px;
 		background-size: cover;
 		color: #fff;
-		padding-left: 16px;
-		padding-top: 30px;
+		padding-left: 14px;
+		padding-top: 20px;
 		background: #52AC8D;
 		text-align: left;
-		line-height: 30px;
-		font-size: 16px;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	.meiche .column:nth-child(3){
+		height: 372px;
 	}
 	.meiche .column:nth-child(3) p{
-		width: 513px;
+		width: 288px;
 		height: 135px;
 		background-size: cover;
 		color: #fff;
-		padding-left: 16px;
-		padding-top: 30px;
+		padding-left: 14px;
+		padding-top: 20px;
 		background: #52AC8D;
 		text-align: left;
-		line-height: 30px;
-		font-size: 16px;
+		line-height: 20px;
+		font-size: 15px;
 	}
 	.chexian{
-		width: 1207px;
-		height: 628px;
+		width: 702px;
+		height: 1077px;
 		margin: 0 auto;
+		margin-top: 13px;
 	}
 	.chexian .fenl{
-		width: 573px;
-		height: 269px;
-		margin: 15px;
-		float: left;
+		width: 675px;
+		height: 242px;
+		margin: 13px;
 		background-color: #52AC8D;
+		overflow: hidden;
 	}
 	.chexian .fenl .xiaotu{
-		width: 159px;
-		height: 269px;
+		width: 169px;
+		height: 242px;
 		float: left;
 	}
 	.chexian .fenl .xiaotu img{
-		width: 159px;
-		height: 269px;
+		width: 169px;
+		height: 242px;
 		background-size: cover;
 	}
 	.chexian .fenl .peiwen{
-		width: 414px;
-		height: 269px;
+		width: 473px;
+		height: 242px;
 		float: right;
 		background: none;
 	}
 	.chexian .fenl .peiwen h4{
 		margin-top: 50px;
 		color: #fff;
-		font-size: 36px;
+		font-size: 28px;
 	}
 	.chexian .fenl .peiwen p{
-		width: 90%;
+		width: 95%;
 		background: none;
 		color: #fff;
-		font-size: 15px;
+		font-size: 14px;
+		line-height: 25px;
 	}
 	.chexian .fenl:nth-child(2){
-		width: 573px;
-		height: 269px;
-		margin: 15px;
-		float: left;
+		width: 675px;
+		height: 242px;
+		margin: 13px;
+		
 		background-color: #F5F5F5;
 	}
 	.chexian .fenl:nth-child(2) .peiwen h4{
@@ -618,17 +895,17 @@ img {
 		font-size: 15px;
 	}
 	.chexian .fenl:nth-child(3){
-		width: 573px;
-		height: 269px;
-		margin: 15px;
-		float: left;
+		width: 675px;
+		height: 242px;
+		margin: 13px;
+		
 		background-color: #F5F5F5;
 	}
 	.serve{
-		width: 1027px;
-		height: 633px;
+		width: 732px;
+		height: 650px;
 		margin: 0 auto;
-		margin-top:64px;
+		margin-top:58px;
 	}
 	.serve h2{
 		font-size: 30px;
@@ -638,14 +915,19 @@ img {
 	}
 	.serve p{
 		text-align: left;
-		font-size: 20px;
+		font-size: 18px;
 		margin-bottom: 20px;
 	}
-	.serve img{
+	.serve div{
+		width: 732px;
+		height: 417px;
+		overflow-x: scroll;
 		margin-top: 20px !important;
-		margin-left: 60px;
+	}
+	.serve div img{
+		
 		width: 918px;
-		height: 418px;
+		height: 417px;
 		
 	}
 
